@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./main.css" />
+    <title>Sign Up 📝</title>
+  </head>
+
+  <body>
+    <div class="image-left">
+      <div class="banner-thing">
+        <img src="./assets/odin-lined.png" />
+        <span>FORM</span>
+      </div>
+      <div class="credit-banner">
+        <p>
+          Photo by some artist on
+          <a href="https://www.pxfuel.com/en/desktop-wallpaper-fifet">
+            pxfue
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <form class="form-right">
+      <p class="form-blurb">
+        This is not a real online service! You know you need something
+        like this in your life to help you realize your deepest dreams.
+        Sign up <em>now</em> to get started.
+        </br></br>
+        You <em>know</em> you want to.
+      </p>
+
+      <div class="form-fields">
+        <p>Let's do this!</p>
+        <ul>
+          <li>
+            <label for="first-name">FIRST NAME</label>
+            <input 
+              type="text" 
+              id="first-name" 
+              required
+              minlength="2"
+              maxlength="30"
+            >
+          </li>
+          <li>
+            <label for="first-name">LAST NAME</label>
+            <input type="text" id="last-name" required>
+          </li>
+          <li>
+            <label for="first-name">EMAIL</label>
+            <input type="email" id="email" required>
+          </li>
+          <li>
+            <label for="first-name">PHONE NUMBER</label>
+            <input type="tel" id="phone-number" required>
+          </li>
+          <li>
+            <label for="first-name">PASSWORD</label>
+            <input type="password" id="password" required>
+          </li>
+          <li>
+            <label for="first-name">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm-password" required>
+         </li>
+        </ul>
+      </div>
+
+      <div class="submit-login-group">
+        <button type="submit">Create Account</button>
+        <p>Already have an acccount? <a href="#">Log-in</a></p>
+      </div>
+    </form>
+  </body>
+</html>
